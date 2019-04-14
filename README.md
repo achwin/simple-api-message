@@ -55,6 +55,4 @@ Then application will running in localhost:9999
 
 `Websocket ws://v1/messages`
 #### Response in console
-```json
-[Hello world,Halo dunia, ...]
-```
+`['Hello world,Halo dunia, ...']`
