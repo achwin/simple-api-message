@@ -54,3 +54,7 @@ Then application will running in localhost:9999
 ### Endpoint
 
 `Websocket ws://messages`
+#### Response in console
+```json
+['Hello world','Halo dunia' ...]
+```
