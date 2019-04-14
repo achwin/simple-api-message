@@ -21,7 +21,7 @@ Then application will running in localhost:9999
 
 ### Endpoint
 
-`POST /messages`
+`POST /v1/messages`
 
    #### Request with json 
 ```json
@@ -40,7 +40,7 @@ Then application will running in localhost:9999
 
 ### Endpoint
 
-`GET /messages`
+`GET /v1/messages`
 
 #### Response
 ```json
@@ -53,7 +53,7 @@ Then application will running in localhost:9999
 
 ### Endpoint
 
-`Websocket ws://messages`
+`Websocket ws://v1/messages`
 #### Response in console
 ```json
 [Hello world,Halo dunia, ...]
