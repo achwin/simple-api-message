@@ -15,11 +15,9 @@ node app.js
 ```
 Then application will running in localhost:9999
 
-## API ENDPOINT
+## API Endpoint
 
 ### Sending a message
-
-### Endpoint
 
 `POST /v1/messages`
 
@@ -38,8 +36,6 @@ Then application will running in localhost:9999
 ```
 ### Collect message that has been sent out
 
-### Endpoint
-
 `GET /v1/messages`
 
 #### Response
@@ -50,8 +46,6 @@ Then application will running in localhost:9999
 }
 ```
 ### Collect message that has been sent out
-
-### Endpoint
 
 `Websocket ws://v1/messages`
 #### Response in console
